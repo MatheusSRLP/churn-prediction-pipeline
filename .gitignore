@@ -1,0 +1,36 @@
+# Data — never commit raw data
+data/raw/
+*.csv
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output artifacts (keep .gitkeep, ignore generated files)
+outputs/figures/*
+outputs/reports/*
+outputs/models/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
