@@ -107,6 +107,7 @@ Download `WA_Fn-UseC_-Telco-Customer-Churn.csv` from [Kaggle](https://www.kaggle
 **3. Run the test suite**
 
 ```bash
+pip install pytest-cov
 python -m pytest tests/ -v --cov=src --cov-report=term-missing
 ```
 
